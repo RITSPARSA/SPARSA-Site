@@ -1,0 +1,29 @@
+title: SPARSA
+email: eboard@sparsa.org
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+twitter_username: SPARSA
+github_username: SPARSA
+
+
+# EBoard Options
+eboard_description: >
+  The executive board is responsible for ensuring the functions integral to 
+  the CSH experience go off as smoothly as possible. Elected at the end of 
+  every academic year, they volunteer their time to help make floor an 
+  even better place to be.
+
+eboard:
+    - role_name: President
+      role_description: >
+        The Financial director is responsible for managing CSH's finances...
+      name: Micah Martin
+      image: financial.jpg
+    - role_name: Vice President of Research
+      role_description: >
+        The primary responsibility of the History director is keeping the line of communication...
+      name: Brandon Dossantos
+      image: history.jpg
+
