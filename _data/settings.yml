@@ -1,29 +1,103 @@
+#-------------------------------
+# General Site Settings
+
 title: SPARSA
 email: eboard@sparsa.org
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: SPARSA
-github_username: SPARSA
+description: >
+  Getting more done after 2am than most people do all day.
+twitter: SPARSA
+github: SPARSA
+
+#-------------------------------
+# Navbar Settings
+navbar:
+  Home: 'index.html'
+  About: 'about.html'
+  - {name: 'EBoard', link: 'eboard.html'}
+  - {name: 'Projects', link: 'projects.html'}
+  Membership: 'membership.html'
+  Contact: 'contact.html'
 
 
-# EBoard Options
+#-------------------------------
+# EBoard Settings
+
 eboard_description: >
   The executive board is responsible for ensuring the functions integral to 
   the CSH experience go off as smoothly as possible. Elected at the end of 
   every academic year, they volunteer their time to help make floor an 
   even better place to be.
 
-eboard:
-    - role_name: President
-      role_description: >
-        The Financial director is responsible for managing CSH's finances...
-      name: Micah Martin
-      image: financial.jpg
-    - role_name: Vice President of Research
-      role_description: >
-        The primary responsibility of the History director is keeping the line of communication...
-      name: Brandon Dossantos
-      image: history.jpg
+eboard_roles:
+- name: President
+  appointee: Micah Martin
+  image: president.jpg
+  description: >
+    The President...
+- name: Vice President of Research
+  appointee: Cameron Clark
+  image: vpr.jpg
+  description: >
+    The Vice President of Research...
+- name: Vice President of Practices
+  appointee: Kyle Carretto
+  image: vpp.jpg
+  description: >
+    The Vice President of Practices...
+- name: Director of Public Relations
+  appointee: Brandon Dossantos
+  image: dpr.jpg
+  description: >
+    The Director of Public Relations...
+- name: Treasurer
+  appointee: Josh Stuts
+  image: treasurer.jpg
+  description: >
+    The Treasurer...
+- name: Secretary
+  appointee: Russell Babarsky
+  image: secretary.jpg
+  description: >
+    The Secretary...
+- name: Academic Advisor
+  appointee: Bo Yuan
+  image: advisor.jpg
+  description: >
+    The Academic Advisor...
 
+#-------------------------------
+# About Us
+
+about_us_short: >
+  The Security Practices and Research Student Association (SPARSA) was founded 
+  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
+  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
+  The Center for Multidisciplinary Studies at RIT.
+about_us_long: >
+  <p>The Security Practices and Research Student Association (SPARSA) was founded 
+  in the wake of 9/11 by RIT students Jared Campbell, Eric Linden and Matt Hile. 
+  The initial faculty advisor was Dr. Samuel McQuade - Former Program Chair of 
+  The Center for Multidisciplinary Studies at RIT.</p>
+  <br>
+  <p>Since its inception, SPARSA has been a student-run organization that addresses 
+  security-related issues and how these issues affect multiple majors and disciplines. 
+  The ultimate goal of this organization is to provide students with experience in 
+  information security and job opportunities in information security (infosec) related 
+  fields. This includes aiding members in the search for both cooperative education 
+  (co-op) and full-time employment opportunities.</p>
+  <br>
+  <p>To meet this goal, SPARSA hosts and participates in research and development of 
+  security tools and policies. In addition, SPARSA provides consulting for organizations 
+  in need of improved security. SPARSA also seeks to build and maintain relationships with 
+  local and national security related organizations. This includes social networking with 
+  security professionals and hosting conferences, symposia, and other security-related 
+  events to spur growth in this area.</p>
+  <br>
+  <p>As security becomes progressively more important in our increasingly global world, 
+  SPARSA will help students remain on top of their game and up to date with the latest 
+  security issues, practices, and research. "Today individuals, families, organizations, 
+  communities and our nation face unprecedented combinations of cyber and physical security 
+  threats to both cyber and physical assets. The challenge is to enhance security capabilities 
+  at all levels of society by developing better security technologies, and by providing 
+  education and training in the use and management of security technologies" (Dr. Samuel McQuade)</p>
+  <br>

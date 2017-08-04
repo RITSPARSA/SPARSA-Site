@@ -1,37 +1,26 @@
 ---
-layout: base
+layout: info_page
 title: Executive Board
 ---    
-        <!-- Main jumbotron for a primary marketing message or call to action -->
-        <div class="jumbotron csh-page-header">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 vcenter">
-                        <div class="csh-header-text">
-                            {{ page.title }}
-                        </div>
-                    </div>
+      
+<div class="container csh-body">
+    <!-- Insert Page Content In this Area -->
+    <p>{{ site.data.settings.eboard_description }}</p>
+    {% for role in site.data.settings.eboard_roles %}
+    <div class="row">
+            <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
+                <div class="eboard-thumbnail">
+                    <img src="assets/images/eboard/{{ role.image }}" class="real traditions-page-thumbnail eboard-thumbnail hcenter-div">
                 </div>
+            </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
+                <h3>{{ role.name }}</h3>
+                <h5>{{ role.appointee }}</h5>
+                <p>{{ role.description }}</p>
             </div>
         </div>
-        <div class="container csh-body">
-            <!-- Insert Page Content In this Area -->
-            <p>{{ site.data.settings.eboard_description }}</p>
-			{% for role in site.data.settings.eboard %}
-			<div class="row">
-                 <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
-                     <div class="eboard-thumbnail">
-                         <img src="assets/images/eboard/{{ role.image }}" class="real traditions-page-thumbnail eboard-thumbnail hcenter-div">
-                     </div>
-                 </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
-                     <h3>{{ role.role_name }}</h3>
-                     <h5>{{ role.name }}</h5>
-                     <p>{{ role.role_description }}</p>
-                 </div>
-             </div>
-             <br>
-             <br>
-			{% endfor %}
+        <br>
+        <br>
+    {% endfor %}
 
-		<!-- End Page Content Here -->
-        </div>
+<!-- End Page Content Here -->
+</div>

@@ -1,39 +1,39 @@
 // Tour Image Carousel JS
 
-$.get("resources/templates/_carouselPrototype.html", function (data) {
+$.get("assets/templates/_carouselPrototype.html", function (data) {
         $.carouselPrototype = data;
 
     });
-$.get("resources/templates/_loungeCarousel.html", function (data) {
+$.get("assets/templates/_loungeCarousel.html", function (data) {
         $.lounge = data;
     
         
     });
-    $.get("resources/templates/_softwareCarousel.html", function (data) {
+    $.get("assets/templates/_softwareCarousel.html", function (data) {
         $.software = data;
         
     });
-    $.get("resources/templates/_libraryCarousel.html", function (data) {
+    $.get("assets/templates/_libraryCarousel.html", function (data) {
         $.library = data;
         
     });
-    $.get("resources/templates/_userCarousel.html", function (data) {
+    $.get("assets/templates/_userCarousel.html", function (data) {
         $.user = data;
         
     });
-    $.get("resources/templates/_conferenceCarousel.html", function (data) {
+    $.get("assets/templates/_conferenceCarousel.html", function (data) {
         $.conference = data;
         
     });
-    $.get("resources/templates/_serverCarousel.html", function (data) {
+    $.get("assets/templates/_serverCarousel.html", function (data) {
         $.server = data;
         
     });
-    $.get("resources/templates/_projectCarousel.html", function (data) {
+    $.get("assets/templates/_projectCarousel.html", function (data) {
         $.project = data;
         
     });
-    $.get("resources/templates/_dormCarousel.html", function (data) {
+    $.get("assets/templates/_dormCarousel.html", function (data) {
         $.dorm = data;
         
     });

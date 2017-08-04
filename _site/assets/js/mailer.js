@@ -20,7 +20,7 @@
         //console.log("DEBUG:g="+g+'&name='+name+'&email='+email+'&position='+position+'&message='+message); //debug
         
         
-        var url = "resources/php/mailer.php"; // the script where you handle the form input.
+        var url = "assets/php/mailer.php"; // the script where you handle the form input.
 
     $.ajax({
            type: "POST",
