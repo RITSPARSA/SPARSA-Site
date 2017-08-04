@@ -1,14 +1,14 @@
 ---
 ---
 //colors
+$color_accent: {{ site.data.theme.accent }}
+$background: {{ site.data.theme.background }}
 $white_98: rgba(255,255,255,.98)
 $color_log_cabin_approx: #222
 $white: #ffffff
 $color_silver_chalice_approx: rgba(170,170,170,1)
 $color_amaranth_approx: #e11c52
-$color_malachite_approx: #1ce13d
 $color_amaranth_10_approx: rgba(225,28,82,0.1)
-$black: #000
 $color_mountain_mist_approx: #999
 $color_storm_dust_approx: #666
 $black_30: rgba(0, 0, 0, .3)
@@ -120,7 +120,7 @@ $url_2: url(../images/insights-header.jpg)
     margin-left: 10%
 
   .navbar-brand 
-    font-size: 30px
+    font-size: 30px  
 
   .desktop-hide 
     display: none
@@ -184,7 +184,7 @@ $url_2: url(../images/insights-header.jpg)
 
 
 .navbar-csh 
-  border-top: 5px solid $color_malachite_approx
+  border-top: 5px solid $color_accent
   background: $white
   .navbar-nav > li > a 
     &:hover 
@@ -195,9 +195,11 @@ $url_2: url(../images/insights-header.jpg)
 
 
 
-.csh-logo 
-  width: 150px
+.csh-logo
+  //height: 75px
+  width: 540px
   margin-top: -22px
+  //margin-bottom: 10px
   //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: width .035s ease-in
 
@@ -212,15 +214,15 @@ $url_2: url(../images/insights-header.jpg)
   //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: border-color .2s ease-in-out
   &:hover 
-    border-color: $color_malachite_approx
+    border-color: $color_accent
     outline: none
 
   &:focus 
-    border-color: $color_malachite_approx
+    border-color: $color_accent
     outline: none
 
   &:active 
-    border-color: $color_malachite_approx
+    border-color: $color_accent
     outline: none
 
 
@@ -243,10 +245,10 @@ input
   padding: 0
 
 .link-active 
-  color: $black
+  color: $background
 
 .csh-jumbotron 
-  background-color: $black
+  background-color: $background
   background-image: $url_1
   background-repeat: no-repeat
   background-position: center
@@ -278,7 +280,7 @@ input
   font-family: $font_2, $font_1
 
 .csh-page-header 
-  background-color: $black
+  background-color: $background
   background-image: $url_1
   background-repeat: no-repeat
   background-position: center
@@ -290,7 +292,7 @@ input
     padding: 0 20px 10px
 
   a 
-    color: $color_malachite_approx
+    color: $color_accent
     &:hover 
       color: $color_jazzberry_jam_approx
 
@@ -308,18 +310,18 @@ input
 
       &:focus 
         background-color: $color_mercury_approx
-        color: $color_malachite_approx
+        color: $color_accent
 
 
     &.active > a 
-      color: $color_malachite_approx
+      color: $color_accent
       background-color: $color_mercury_approx
       &:hover 
         background-color: $color_mercury_approx
 
       &:focus 
         background-color: $color_mercury_approx
-        color: $color_malachite_approx
+        color: $color_accent
 
 
 
@@ -468,7 +470,7 @@ body
   font-family: $font_2, $font_1
 
 h2 
-  color: $color_malachite_approx
+  color: $color_accent
 
 hr 
   height: 2px
@@ -498,23 +500,23 @@ p
 
 .csh-sponsors-text 
   background-color: $white
-  color: $color_malachite_approx
+  color: $color_accent
   font-size: 30px
 
 .link-text 
-  color: $color_malachite_approx
+  color: $color_accent
   text-decoration: none
   &:visited 
-    color: $color_malachite_approx
+    color: $color_accent
     text-decoration: none
 
   &:hover 
-    color: $color_malachite_approx
+    color: $color_accent
     text-decoration: none
     color: $color_rose_bud_cherry_approx
 
   &:active 
-    color: $color_malachite_approx
+    color: $color_accent
     text-decoration: none
 
 
@@ -574,7 +576,7 @@ p
 
 
 .csh-footer 
-  background: $color_malachite_approx
+  background: $color_accent
   color: $white
   padding: 20px
 
@@ -582,10 +584,10 @@ p
   text-align: center
 
 h4 
-  color: $color_malachite_approx
+  color: $color_accent
 
 h3 
-  color: $color_malachite_approx
+  color: $color_accent
 
 .member-page-thumbnail 
   width: 100%
@@ -607,13 +609,14 @@ h3
   transform: translate(-50%, 0)
 
 .navbar 
-  border-bottom: 2px solid $black
+  border-bottom: 2px solid $background
+  position: absolute
   &.banner-active 
     margin-top: 26px
 
 
 .csh-btn 
-  background-color: $color_malachite_approx
+  background-color: $color_accent
   color: $white
   //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: background-color .1s ease-in
@@ -726,17 +729,17 @@ th
   margin: auto
 
 .csh-active 
-  background-color: $color_malachite_approx
-  border-color: $color_malachite_approx
+  background-color: $color_accent
+  border-color: $color_accent
   color: $white
   &:hover 
-    background-color: $color_malachite_approx
-    border-color: $color_malachite_approx
+    background-color: $color_accent
+    border-color: $color_accent
     color: $white
 
   &:focus 
-    background-color: $color_malachite_approx
-    border-color: $color_malachite_approx
+    background-color: $color_accent
+    border-color: $color_accent
     color: $white
 
   > .csh-active-link 
@@ -812,17 +815,17 @@ th
 .insights-btn-home 
   margin: 30px auto 0 auto
   background-color: $white
-  color: $color_malachite_approx
+  color: $color_accent
   display: block
   max-width: 300px
   &:hover 
     background-color: $white
-    color: $color_malachite_approx
+    color: $color_accent
     opacity: .9
 
   &:focus 
     background-color: $white
-    color: $color_malachite_approx
+    color: $color_accent
     opacity: .9
 
 

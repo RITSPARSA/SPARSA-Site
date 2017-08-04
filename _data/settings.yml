@@ -2,22 +2,34 @@
 # General Site Settings
 
 title: SPARSA
+title_long: Security Practices and Research Student Association
+motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
 email: eboard@sparsa.org
 description: >
   Getting more done after 2am than most people do all day.
-twitter: SPARSA
-github: SPARSA
+twitter: RIT_SPARSA
+github: RITSPARSA
+facebook_page: RIT.SPARSA
+facebook_group: sparsa
 
 #-------------------------------
 # Navbar Settings
 navbar:
-  Home: 'index.html'
-  About: 'about.html'
-  - {name: 'EBoard', link: 'eboard.html'}
-  - {name: 'Projects', link: 'projects.html'}
-  Membership: 'membership.html'
-  Contact: 'contact.html'
-
+  - name: 'Home'
+    link: 'index.html'
+  - name: 'About'
+    link: 'about.html'
+    subitems:
+      - name: 'EBoard'
+        link: 'eboard.html'
+      - name: 'Projects'
+        link: 'projects.html'
+  - name: 'ISTS'
+    link: 'https://ists.sparsa.org'
+  - name: 'Membership'
+    link: 'membership.html'
+  - name: 'Contact'
+    link: 'contact.html'
 
 #-------------------------------
 # EBoard Settings
@@ -29,41 +41,41 @@ eboard_description: >
   even better place to be.
 
 eboard_roles:
-- name: President
-  appointee: Micah Martin
-  image: president.jpg
-  description: >
-    The President...
-- name: Vice President of Research
-  appointee: Cameron Clark
-  image: vpr.jpg
-  description: >
-    The Vice President of Research...
-- name: Vice President of Practices
-  appointee: Kyle Carretto
-  image: vpp.jpg
-  description: >
-    The Vice President of Practices...
-- name: Director of Public Relations
-  appointee: Brandon Dossantos
-  image: dpr.jpg
-  description: >
-    The Director of Public Relations...
-- name: Treasurer
-  appointee: Josh Stuts
-  image: treasurer.jpg
-  description: >
-    The Treasurer...
-- name: Secretary
-  appointee: Russell Babarsky
-  image: secretary.jpg
-  description: >
-    The Secretary...
-- name: Academic Advisor
-  appointee: Bo Yuan
-  image: advisor.jpg
-  description: >
-    The Academic Advisor...
+  - name: President
+    appointee: Micah Martin
+    image: president.jpg
+    description: >
+      The President...
+  - name: Vice President of Research
+    appointee: Cameron Clark
+    image: vpr.jpg
+    description: >
+      The Vice President of Research...
+  - name: Vice President of Practices
+    appointee: Kyle Carretto
+    image: vpp.jpg
+    description: >
+      The Vice President of Practices...
+  - name: Director of Public Relations
+    appointee: Brandon Dossantos
+    image: dpr.jpg
+    description: >
+      The Director of Public Relations...
+  - name: Treasurer
+    appointee: Josh Stuts
+    image: treasurer.jpg
+    description: >
+      The Treasurer...
+  - name: Secretary
+    appointee: Russell Babarsky
+    image: secretary.jpg
+    description: >
+      The Secretary...
+  - name: Academic Advisor
+    appointee: Bo Yuan
+    image: advisor.jpg
+    description: >
+      The Academic Advisor...
 
 #-------------------------------
 # About Us

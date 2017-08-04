@@ -6,42 +6,20 @@
                 <h3 style="color:#FFF;">Site Map</h3>
                 <div class="sitemap-ul-container">
                     <ul class="sitemap">
+                        {% for item in site.data.settings.navbar %}
                         <li>
-                            <a href="index.html" class="sitemap-link">Home</a>
+                            <a href="{{ item.link }}" class="sitemap-link">{{ item.name }}</a>
                         </li>
-                        <li>
-                            <a href="about.html" class="sitemap-link">About</a>
-                        </li>
+                        {% if item.subitems %}
                         <ul class="sitemap">
+                        {% for subitem in item.subitems %}
                             <li>
-                                <a href="projects.html" class="sitemap-link">Projects</a>
+                                <a href="{{ subitem.link }}" class="sitemap-link">{{ subitem.name }}</a>
                             </li>
-                            <li>
-                                <a href="alumni.html" class="sitemap-link">Alumni</a>
-                            </li>
-                            <li>
-                                <a href="eboard.html" class="sitemap-link">Eboard</a>
-                            </li>
-                            <li>
-                                <a href="sponsors.html" class="sitemap-link">Sponsors</a>
-                            </li>
+                        {% endfor %}
                         </ul>
-                        <li><a href="membership.html" class="sitemap-link">Membership</a>
-                        </li>
-                        <ul class="sitemap">
-                            <li>
-                                <a href="traditions.html" class="sitemap-link">Traditions</a>
-                            </li>
-                            <li>
-                                <a href="tour.html" class="sitemap-link">Tour</a>
-                            </li>
-                            <li>
-                                <a href="insights.html" class="sitemap-link">Insights</a>
-                            </li>
-                        </ul>
-                        <li>
-                            <a href="contact.html" class="sitemap-link">Contact</a>
-                        </li>
+                        {% endif %}
+                        {% endfor %}
                     </ul>
                 </div>
             </div>
@@ -49,21 +27,21 @@
                 <h3 style="color:#FFF;">Public Resources</h3>
                 <div class="sitemap-ul-container">
                     <ul class="sitemap">
+                        {% if site.data.settings.github %}
                         <li>
-                            <a href="membership.html" class="sitemap-link">How to Apply</a>
+                            <a href="https://github.com/{{ site.data.settings.github }}" class="sitemap-link"><i class="fa fa-github"></i> {{ site.data.settings.title }} on GitHub</a>
                         </li>
+                        {% endif %}
+                        {% if site.data.settings.facebook_group %}
                         <li>
-                            <a href="http://schedule.csh.rit.edu/" class="sitemap-link">CSH RIT Schedule Maker</a>
+                            <a href="https://www.facebook.com/groups/{{ site.data.settings.facebook_group }}/" class="sitemap-link"><i class="fa fa-facebook-official"></i> {{ site.data.settings.title }} on Facebook</a>
                         </li>
+                        {% endif %}
+                        {% if site.data.settings.twitter %}
                         <li>
-                            <a href="https://github.com/ComputerScienceHouse" class="sitemap-link"><i class="fa fa-github"></i> CSH on GitHub</a>
+                            <a href="https://twitter.com/{{ site.data.settings.twitter }}" class="sitemap-link"><i class="fa fa-twitter"></i>@{{ site.data.settings.twitter }}</a>
                         </li>
-                        <li>
-                            <a href="https://www.facebook.com/RITCSH/" class="sitemap-link"><i class="fa fa-facebook-official"></i> CSH on Facebook</a>
-                        </li>
-                        <li>
-                            <a href="https://twitter.com/CSH_History" class="sitemap-link"><i class="fa fa-twitter"></i>@CSH_History</a>
-                        </li>
+                        {% endif %}
                     </ul>
                 </div>
             </div>
