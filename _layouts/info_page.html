@@ -1,7 +1,6 @@
 ---
 layout: base
 ---
-
 <!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron csh-page-header">
     <div class="container">
@@ -14,4 +13,8 @@ layout: base
         </div>
     </div>
 </div>
-{{ content }}
+<div class="container csh-body">
+    <!-- Insert Page Content In this Area -->
+    <p>{{ page.description }}</p>
+    {{ content }}
+</div>

@@ -97,7 +97,8 @@
     margin-bottom: 40px;
     border-radius: 6px;
     position: relative;
-    left: 50%; }
+    left: 50%;
+    transform: translate(-50%, 0); }
 
   .csh-page-header {
     height: 100px; }

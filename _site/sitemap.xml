@@ -9,4 +9,7 @@
 <url>
 <loc>http://example.com/</loc>
 </url>
+<url>
+<loc>http://example.com/projects.html</loc>
+</url>
 </urlset>

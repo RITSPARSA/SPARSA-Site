@@ -14,18 +14,25 @@ facebook_group: sparsa
 
 #-------------------------------
 # Navbar Settings
+navbar-brand:
+  image: SPARSA_Header_Black.png
+  link: '/index.html'
+
 navbar:
   - name: 'Home'
     link: 'index.html'
   - name: 'About'
     link: 'about.html'
     subitems:
-      - name: 'EBoard'
-        link: 'eboard.html'
-      - name: 'Projects'
-        link: 'projects.html'
-  - name: 'ISTS'
-    link: 'https://ists.sparsa.org'
+    - name: 'Alumni'
+      link: 'alumni.html'
+    - name: 'EBoard'
+      link: 'eboard.html'
+  - name: 'Projects'
+    link: 'projects.html'
+    subitems:
+    - name: 'ISTS'
+      link: 'https://ists.sparsa.org'
   - name: 'Membership'
     link: 'membership.html'
   - name: 'Contact'
@@ -33,12 +40,6 @@ navbar:
 
 #-------------------------------
 # EBoard Settings
-
-eboard_description: >
-  The executive board is responsible for ensuring the functions integral to 
-  the CSH experience go off as smoothly as possible. Elected at the end of 
-  every academic year, they volunteer their time to help make floor an 
-  even better place to be.
 
 eboard_roles:
   - name: President
@@ -113,3 +114,18 @@ about_us_long: >
   at all levels of society by developing better security technologies, and by providing 
   education and training in the use and management of security technologies" (Dr. Samuel McQuade)</p>
   <br>
+
+#-------------------------------
+# Projects
+projects:
+- name: Weekly Meetings
+  description: We have meetings every Friday from 2-4PM in GOL-1400
+  image: drink.jpg
+- name: Hack Night
+  description: >
+    Come and hangout and work on projects or participate in some fun activities!
+    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2400)</p>
+  image: infosys.jpg
+- name: ISTS
+  description: This is a competition we do in the Spring.  Follow the link below for more information!
+  image: arcade.jpg
