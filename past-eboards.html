@@ -1,0 +1,20 @@
+---
+layout: info_page
+title: EBoard of Years Past
+---
+<br>
+<div class="past-eboards">
+    <div class="center">
+{% for eboard in site.data.past-eboard %}
+        <h4>{{ eboard.year }}</h4>
+        <p>President: {{ eboard.President }}</p>
+        <p>Vice President of Practices: {{ eboard.VicePresidentofPractices }}</p>
+        <p>Vice President of Research: {{ eboard.VicePresidentofResearch }}</p>
+        <p>Treasurer: {{ eboard.Treasurer }}</p>
+        <p>Secretary: {{ eboard.Secretary }}</p>
+        <p>Graduate Advisor: {{ eboard.GraduateAdvisor }}</p>
+        <p>Faculty Advisor: {{ eboard.FacultyAdvisor }}</p>
+        <br><br>
+{% endfor %}
+    </div>
+</div>

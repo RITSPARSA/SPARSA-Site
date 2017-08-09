@@ -29,7 +29,7 @@
                     <ul class="sitemap">
                         {% if site.data.settings.github %}
                         <li>
-                            <a href="https://github.com/{{ site.data.settings.github }}" class="sitemap-link"><i class="fa fa-github"></i> {{ site.data.settings.title }} on GitHub</a>
+                            <a href="https://github.com/{{ site.data.settings.github.name }}" class="sitemap-link"><i class="fa fa-github"></i> {{ site.data.settings.title }} on GitHub</a>
                         </li>
                         {% endif %}
                         {% if site.data.settings.facebook_group %}
@@ -74,7 +74,7 @@
                 <a href="contact.html" style="color:#FFF">{{ site.data.settings.email }}</a>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 hcenter">
-                <a style="color:#FFF" href="https://github.com/ComputerScienceHouse/CSHPublicSite">Website on <i class="fa fa-github"></i> Github</a>
+                <a style="color:#FFF" href="https://github.com/{{ site.data.settings.github.name }}/{{ site.data.settings.github.project }}">Website on <i class="fa fa-github"></i> Github</a>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-4 hcenter">
                 Copyright <span id="currentYear"></span> © SPARSA

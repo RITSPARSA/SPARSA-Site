@@ -8,12 +8,15 @@ email: eboard@sparsa.org
 description: >
   Getting more done after 2am than most people do all day.
 twitter: RIT_SPARSA
-github: RITSPARSA
+github: 
+  name: RITSPARSA
+  project: SPARSA-Site
+
 facebook_page: RIT.SPARSA
 facebook_group: sparsa
 
 #-------------------------------
-# Navbar Settings
+# Navbar Set
 navbar-brand:
   image: SPARSA_Header_Black.png
   link: '/index.html'
@@ -28,13 +31,10 @@ navbar:
       link: 'alumni.html'
     - name: 'EBoard'
       link: 'eboard.html'
-  - name: 'Projects'
-    link: 'projects.html'
-    subitems:
-    - name: 'ISTS'
-      link: 'https://ists.sparsa.org'
-  - name: 'Membership'
-    link: 'membership.html'
+    - name: 'Past EBoards'
+      link: 'past-eboards.html'
+  - name: 'Events'
+    link: 'events.html'
   - name: 'Contact'
     link: 'contact.html'
 
@@ -116,8 +116,8 @@ about_us_long: >
   <br>
 
 #-------------------------------
-# Projects
-projects:
+# Events
+events:
 - name: Weekly Meetings
   description: We have meetings every Friday from 2-4PM in GOL-1400
   image: drink.jpg
@@ -127,5 +127,7 @@ projects:
     <p>Every Monday from 6-anytime in the Sec Lab (GOL-2400)</p>
   image: infosys.jpg
 - name: ISTS
-  description: This is a competition we do in the Spring.  Follow the link below for more information!
+  description: >
+    This is a competition we do in the Spring.  Follow the link below for more information!
+    <p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p>
   image: arcade.jpg

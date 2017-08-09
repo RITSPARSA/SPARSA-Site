@@ -123,14 +123,18 @@
   .dropdown-menu a {
     padding-top: 5px !important;
     padding-bottom: 5px !important;
-    font-size: 14px; } }
+    font-size: 14px; }
+
+  table.alumni-table th, table.alumni-table td {
+    padding-bottom: 5px;
+    padding-right: 20px; } }
 .navbar-csh {
   border-top: 5px solid #1ce13d;
-  background: #ffffff; }
+  background: #222; }
   .navbar-csh .navbar-nav > li > a:hover {
-    background-color: #ffffff; }
+    background-color: #222; }
   .navbar-csh .navbar-nav > li > a:focus {
-    background-color: #ffffff; }
+    background-color: #222; }
 
 .csh-logo {
   width: 540px;
@@ -171,10 +175,10 @@ input {
   padding: 0; }
 
 .link-active {
-  color: #000; }
+  color: #1ce13d; }
 
 .csh-jumbotron {
-  background-color: #000;
+  background-color: black;
   background-image: url(../images/bigbkgd.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -204,11 +208,8 @@ input {
   font-family: Oxygen, sans-serif; }
 
 .csh-page-header {
-  background-color: #000;
-  background-image: url(../images/bigbkgd.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  background-color: white;
+  border-bottom: 5px solid #1ce13d; }
 
 .event-calendar {
   padding: 0; }
@@ -304,11 +305,9 @@ input {
     font-family: Eras, sans-serif; }
 
   .csh-header-text {
-    color: #ffffff;
     font-size: 2.5em;
     text-align: center;
-    margin-top: -25px;
-    font-family: Eras, sans-serif; }
+    margin-top: -25px; }
 
   .sponsor-image-container {
     width: 50%;
@@ -336,9 +335,7 @@ input {
     padding: 5%; }
 
   .csh-header-text {
-    color: #ffffff;
     font-size: 3em;
-    font-family: Eras, sans-serif;
     padding: 5%;
     margin-top: -60px; }
 
@@ -359,9 +356,7 @@ input {
     padding-left: 5%; }
 
   .csh-header-text {
-    color: #ffffff;
     font-size: 4em;
-    font-family: Eras, sans-serif;
     padding-left: 5%;
     margin-top: -35px; } }
 .vcenter {
@@ -388,8 +383,8 @@ p {
   margin-top: -30px; }
 
 .project-thumbnail {
-  max-width: 150px;
-  max-height: 150px;
+  max-width: 250px;
+  max-height: 250px;
   width: 90%;
   height: 90%;
   padding: 5%;
@@ -501,7 +496,6 @@ h3 {
   transform: translate(-50%, 0); }
 
 .navbar {
-  border-bottom: 2px solid #000;
   position: absolute; }
   .navbar.banner-active {
     margin-top: 26px; }
@@ -718,10 +712,10 @@ nav a {
   color: #999;
   transition: color 0.1s ease-in; }
   nav a:hover {
-    color: #666;
+    color: white;
     background: none; }
   nav a:focus {
-    color: #666;
+    color: white;
     background: none; }
 
 .btn-primary.disabled:hover {
@@ -740,3 +734,25 @@ nav a {
     font-size: 25px;
     color: #ffffff;
     background-color: #e11c52; }
+
+table.alumni-table {
+  margin-left: auto;
+  margin-right: auto; }
+  table.alumni-table th, table.alumni-table td {
+    text-align: center; }
+
+.past-eboards {
+  text-align: center; }
+  .past-eboards .center {
+    display: inline-block;
+    text-align: left; }
+  .past-eboards h4 {
+    text-align: center; }
+
+.aboutus-pic {
+  margin-left: auto;
+  margin-right: auto; }
+
+.csh-header-text {
+  color: #222;
+  font-family: Eras, sans-serif; }

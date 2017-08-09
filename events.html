@@ -1,14 +1,14 @@
 ---
 layout: info_page
-title: Projects
+title: Events
 ---
-{% for project in site.data.settings.projects %}
+{% for event in site.data.settings.events %}
 <div class="row">
     <div class="col-xs-12 col-sm-6 col-md-4 vcenter">
-        <img src="assets/images/projects/{{ project.image }}" class="real traditions-page-thumbnail eboard-thumbnail hcenter-div">
+        <img src="assets/images/projects/{{ event.image }}" class="real traditions-page-thumbnail eboard-thumbnail hcenter-div">
     </div><!----><div class="col-xs-12 col-sm-6 col-md-8 vcenter">
-        <h3>{{ project.name }}</h3>
-        <p>{{ project.description }}</p>
+        <h3>{{ event.name }}</h3>
+        <p>{{ event.description }}</p>
         <!--p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p-->
     </div>
 </div>

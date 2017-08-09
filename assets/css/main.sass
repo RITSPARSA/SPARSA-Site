@@ -3,6 +3,10 @@
 //colors
 $color_accent: {{ site.data.theme.accent }}
 $background: {{ site.data.theme.background }}
+$navbar: {{ site.data.theme.navbar }}
+$navbar_hover: {{ site.data.theme.navbar-hover }}
+$bottom_nav: {{ site.data.theme.bottom-nav }}
+$page_title: {{ site.data.theme.page-title }}
 $white_98: rgba(255,255,255,.98)
 $color_log_cabin_approx: #222
 $white: #ffffff
@@ -182,16 +186,20 @@ $url_2: url(../images/insights-header.jpg)
     padding-bottom: 5px !important
     font-size: 14px
 
+  table.alumni-table 
+    th, td 
+      padding-bottom: 5px
+      padding-right: 20px
 
 .navbar-csh 
   border-top: 5px solid $color_accent
-  background: $white
+  background: $navbar
   .navbar-nav > li > a 
     &:hover 
-      background-color: $white
+      background-color: $navbar
 
     &:focus 
-      background-color: $white
+      background-color: $navbar
 
 
 
@@ -245,10 +253,10 @@ input
   padding: 0
 
 .link-active 
-  color: $background
+  color: $color_accent
 
 .csh-jumbotron 
-  background-color: $background
+  background-color: black
   background-image: $url_1
   background-repeat: no-repeat
   background-position: center
@@ -281,10 +289,11 @@ input
 
 .csh-page-header 
   background-color: $background
-  background-image: $url_1
-  background-repeat: no-repeat
-  background-position: center
-  background-size: cover
+  border-bottom: 5px solid $color_accent
+  //background-image: $url_1
+  //background-repeat: no-repeat
+  //background-position: center
+  //background-size: cover
 
 .event-calendar 
   padding: 0
@@ -392,11 +401,11 @@ input
     font-family: $font_0, $font_1
 
   .csh-header-text 
-    color: $white
+    //color: $page_title
     font-size: 2.5em
     text-align: center
     margin-top: -25px
-    font-family: $font_0, $font_1
+    //font-family: $font_0, $font_1
 
   .sponsor-image-container 
     width: 50%
@@ -428,9 +437,9 @@ input
     padding: 5%
 
   .csh-header-text 
-    color: $white
+    //color: $white
     font-size: 3em
-    font-family: $font_0, $font_1
+    //font-family: $font_0, $font_1
     padding: 5%
     margin-top: -60px
 
@@ -453,9 +462,9 @@ input
     padding-left: 5%
 
   .csh-header-text 
-    color: $white
+    //color: $white
     font-size: 4em
-    font-family: $font_0, $font_1
+    //font-family: $font_0, $font_1
     padding-left: 5%
     margin-top: -35px
 
@@ -484,8 +493,8 @@ p
   margin-top: -30px
 
 .project-thumbnail 
-  max-width: 150px
-  max-height: 150px
+  max-width: 250px
+  max-height: 250px
   width: 90%
   height: 90%
   padding: 5%
@@ -555,7 +564,8 @@ p
 
 .sitemap-container 
   width: 100%
-  background: $color_log_cabin_approx
+  //background: $color_log_cabin_approx
+  background: $bottom_nav
   padding: 10px
 
 .sitemap-ul-container 
@@ -609,7 +619,7 @@ h3
   transform: translate(-50%, 0)
 
 .navbar 
-  border-bottom: 2px solid $background
+  //border-bottom: 2px solid $background
   position: absolute
   &.banner-active 
     margin-top: 26px
@@ -858,11 +868,11 @@ nav a
   //If you use compass, instead of the line below you could use + transition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
   transition: color .1s ease-in
   &:hover 
-    color: $color_storm_dust_approx
+    color: $navbar_hover
     background: none
 
   &:focus 
-    color: $color_storm_dust_approx
+    color: $navbar_hover
     background: none
 
 
@@ -886,3 +896,25 @@ nav a
     font-size: 25px
     color: $white
     background-color: $color_amaranth_approx
+
+table.alumni-table 
+  margin-left: auto
+  margin-right: auto
+  th, td
+    text-align: center
+
+.past-eboards
+  text-align: center
+  .center
+    display: inline-block
+    text-align: left
+  h4
+    text-align: center
+
+.aboutus-pic
+  margin-left: auto
+  margin-right: auto
+
+.csh-header-text
+  color: $page_title
+  font-family: $font_0, $font_1
