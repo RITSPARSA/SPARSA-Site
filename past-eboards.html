@@ -6,15 +6,17 @@ title: EBoard of Years Past
 <div class="past-eboards">
     <div class="center">
 {% for eboard in site.data.past-eboard %}
-        <h4>{{ eboard.year }}</h4>
-        <p>President: {{ eboard.President }}</p>
-        <p>Vice President of Practices: {{ eboard.VicePresidentofPractices }}</p>
-        <p>Vice President of Research: {{ eboard.VicePresidentofResearch }}</p>
-        <p>Treasurer: {{ eboard.Treasurer }}</p>
-        <p>Secretary: {{ eboard.Secretary }}</p>
-        <p>Graduate Advisor: {{ eboard.GraduateAdvisor }}</p>
-        <p>Faculty Advisor: {{ eboard.FacultyAdvisor }}</p>
+        <h3>{{ eboard.year }}</h3>
+        <div class="center">
+        <p><span>President:</span> {{ eboard.President }}</p>
+        <p><span>Vice President of Practices:</span> {{ eboard.VicePresidentofPractices }}</p>
+        <p><span>Vice President of Research:</span> {{ eboard.VicePresidentofResearch }}</p>
+        <p><span>Treasurer:</span> {{ eboard.Treasurer }}</p>
+        <p><span>Secretary:</span> {{ eboard.Secretary }}</p>
+        <p><span>Graduate Advisor:</span> {{ eboard.GraduateAdvisor }}</p>
+        <p><span>Faculty Advisor:</span> {{ eboard.FacultyAdvisor }}</p>
         <br><br>
+        </div>
 {% endfor %}
     </div>
 </div>

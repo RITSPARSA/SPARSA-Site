@@ -179,7 +179,6 @@ input {
 
 .csh-jumbotron {
   background-color: black;
-  background-image: url(../images/bigbkgd.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover; }
@@ -737,7 +736,8 @@ nav a {
 
 table.alumni-table {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  font-size: large; }
   table.alumni-table th, table.alumni-table td {
     text-align: center; }
 
@@ -746,13 +746,23 @@ table.alumni-table {
   .past-eboards .center {
     display: inline-block;
     text-align: left; }
-  .past-eboards h4 {
+    .past-eboards .center p {
+      font-size: large; }
+      .past-eboards .center p span {
+        font-weight: bold; }
+  .past-eboards h3 {
     text-align: center; }
 
 .aboutus-pic {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+  max-height: 350px; }
 
 .csh-header-text {
   color: #222;
   font-family: Eras, sans-serif; }
+
+.events-thumbnail {
+  max-width: 350px;
+  margin: 20px auto;
+  border-radius: 6px; }

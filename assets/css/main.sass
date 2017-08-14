@@ -257,7 +257,7 @@ input
 
 .csh-jumbotron 
   background-color: black
-  background-image: $url_1
+  //background-image: $url_1
   background-repeat: no-repeat
   background-position: center
   background-size: cover
@@ -900,6 +900,7 @@ nav a
 table.alumni-table 
   margin-left: auto
   margin-right: auto
+  font-size: large
   th, td
     text-align: center
 
@@ -908,13 +909,23 @@ table.alumni-table
   .center
     display: inline-block
     text-align: left
-  h4
+    p 
+      font-size: large
+      span
+        font-weight: bold
+  h3
     text-align: center
 
 .aboutus-pic
   margin-left: auto
   margin-right: auto
+  max-height: 350px
 
 .csh-header-text
   color: $page_title
   font-family: $font_0, $font_1
+
+.events-thumbnail
+  max-width: 350px
+  margin: 20px auto
+  border-radius: 6px
