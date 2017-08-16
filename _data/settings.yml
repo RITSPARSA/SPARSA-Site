@@ -6,7 +6,7 @@ title_long: Security Practices and Research Student Association
 motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
 email: eboard@sparsa.org
 description: >
-  Security Through Community
+  Security Practicies And Research Student Association
 twitter: RIT_SPARSA
 github: 
   name: RITSPARSA
@@ -30,14 +30,14 @@ navbar:
     subitems:
     - name: 'Alumni'
       link: 'alumni.html'
-    - name: 'EBoard'
-      link: 'eboard.html'
     - name: 'Past EBoards'
       link: 'past-eboards.html'
+  - name: 'EBoard'
+    link: 'eboard.html'
   - name: 'Events'
     link: 'events.html'
-  - name: 'Contact'
-    link: 'contact.html'
+  - name: 'ISTS'
+    link: 'https://ists.sparsa.org'
 
 #-------------------------------
 # EBoard Settings
