@@ -19,7 +19,7 @@ youtube: RITSPARSA
 # Navbar Settings
 favicon: favicon.png
 navbar-brand:
-  image: SPARSA_Header_White.png
+  image: SPARSA_Header.png
   link: '/index.html'
 
 navbar:
