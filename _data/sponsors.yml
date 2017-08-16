@@ -1,0 +1,41 @@
+- name: CSEC
+  link: https://www.rit.edu/gccis/computingsecurity/
+  image: ritLarge.png
+- name: Mitre
+  link: https://www.mitre.org/
+- name: Cobalt Strike
+  link: https://www.cobaltstrike.com/
+- name: Carve Systems, LLC
+- name: Crypsis
+- name: Amazon
+- name: AMP
+- name: Indeed
+- name: Dig Susquehanna
+- name: Box
+- name: Factset
+- name: NSSA
+- name: Fire Eye
+- name: Raytheon
+- name: Carbon Black
+- name: Ultimate Software
+- name: Google
+  link: https://www.google.com
+  image: google.png
+- name: 2Sigma
+- name: OG Systems
+- name: Cisco
+  link: https://www.cisco.com/
+  image: cisco.png
+- name: Syncurity Networks
+- name: Dell SecureWorks
+- name: Shmoocon
+- name: Intrepidus Group Mobile Security
+- name: Akamai 
+- name: RedHat
+- name: RAGE
+- name: Salesforce
+- name: Ponte Technologies
+- name: MIT
+- name: Perimeter E-Security
+- name: Arnold Magnetics
+- name: Wegmans
