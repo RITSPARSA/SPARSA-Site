@@ -47,7 +47,12 @@ eboard_roles:
     appointee: Micah Martin
     image: president.jpg
     description: >
-      The President...
+      Micah Martin is a third year Computing Security student at RIT. He competes 
+      on the school's CCDC team and loves helping with and competing in security 
+      competitions. Micah's technical focus is primary on Linux systems and email 
+      servers. He loves helping out the community and learning with others. If he 
+      isn't sleeping in the computer labs, he can be found sleeping out in the woods. 
+      You can contact him at mmartin@sparsa.org.
   - name: Vice President of Research
     appointee: Cameron Clark
     image: vpr.jpg
