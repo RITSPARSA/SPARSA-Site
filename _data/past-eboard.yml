@@ -53,7 +53,7 @@
 - year: 2010-2011
   President: Jacob Ruppal
   VicePresidentofPractices: Chaim Sanders
-  VicePresidentofResearch:
+  #VicePresidentofResearch:
   Treasurer: Ryan Peck
   Secretary: Michael Tortora
   FacultyAdvisor: Gary Scarborough
@@ -65,12 +65,12 @@
   Treasurer: Chaim Sanders
   Secretary: Neil Zimmerman
 
-- year: 2008-2009
-  President:
-  VicePresidentofPractices:
-  VicePresidentofResearch:
-  Treasurer:
-  Secretary:
+#- year: 2008-2009
+#  President:
+#  VicePresidentofPractices:
+#  VicePresidentofResearch:
+#  Treasurer:
+#  Secretary:
 
 - year: 2007-2008
   President: Alex Getty
@@ -83,15 +83,15 @@
   President: Jason Batchelor
   VicePresidentofPractices: Alex Getty
   VicePresidentofResearch: Nick Carpenter
-  Treasurer:
-  Secretary:
+  #Treasurer:
+  #Secretary:
 
 - year: 2005-2006
-  President:
+  #President:
   VicePresidentofPractices: Jason Batchelor
-  VicePresidentofResearch:
-  Treasurer:
-  Secretary:
+  #VicePresidentofResearch:
+  #Treasurer:
+  #Secretary:
 
 - year: 2004-2005
   President: Jeff Volante
@@ -102,10 +102,10 @@
 
 - year: 2003-2004
   President: Keith LeClaire
-  VicePresidentofPractices:
-  VicePresidentofResearch:
-  Treasurer:
-  Secretary:
+  #VicePresidentofPractices:
+  #VicePresidentofResearch:
+  #Treasurer:
+  #Secretary:
 
 - year: 2002-2003
   President: Steve Frank
