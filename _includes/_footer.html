@@ -28,6 +28,11 @@
                 <h3 style="color:#FFF;">Public Resources</h3>
                 <div class="sitemap-ul-container">
                     <ul class="sitemap">
+                        {% if site.data.settings.youtube %}
+                        <li>
+                            <a href="https://www.youtube.com/user/{{ site.data.settings.youtube }}" class="sitemap-link"><i class="fa fa-youtube-play"></i> {{ site.data.settings.title }} on YouTube</a>
+                        </li>
+                        {% endif %}
                         {% if site.data.settings.github %}
                         <li>
                             <a href="https://github.com/{{ site.data.settings.github.name }}" class="sitemap-link"><i class="fa fa-github"></i> {{ site.data.settings.title }} on GitHub</a>
@@ -41,11 +46,6 @@
                         {% if site.data.settings.twitter %}
                         <li>
                             <a href="https://twitter.com/{{ site.data.settings.twitter }}" class="sitemap-link"><i class="fa fa-twitter"></i> @{{ site.data.settings.twitter }}</a>
-                        </li>
-                        {% endif %}
-                        {% if site.data.settings.youtube %}
-                        <li>
-                            <a href="https://www.youtube.com/user/{{ site.data.settings.youtube }}" class="sitemap-link"><i class="fa fa-youtube-play"></i> {{ site.data.settings.youtube }}</a>
                         </li>
                         {% endif %}
                     </ul>
