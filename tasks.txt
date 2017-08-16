@@ -5,4 +5,3 @@ Fix Content of Paragraphs
 Fix Sponsors
 Link that does a fast redirect to ISTS Sponsorship page
 Fix Bottom bar (Connect with us links) and remove Site Map
-Add ISTS link to top bar
