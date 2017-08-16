@@ -38,6 +38,8 @@ navbar:
     link: 'events.html'
   - name: 'ISTS'
     link: 'https://ists.sparsa.org'
+  - name: 'Sponsors'
+    link: 'sponsors.html'
 
 #-------------------------------
 # EBoard Settings
