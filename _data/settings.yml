@@ -16,6 +16,16 @@ facebook_group: sparsa
 youtube: RITSPARSA
 
 #-------------------------------
+# Main Image Slider Settings
+slider:
+  - image: ISTS_0.jpg
+  - image: ISTS_1.jpg
+  - image: ISTS_2.jpg
+  - image: ISTS_3.jpg
+  - image: ISTS_4.jpg
+  - image: ISTS_5.jpg
+
+#-------------------------------
 # Navbar Settings
 favicon: favicon.png
 navbar-brand:
