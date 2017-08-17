@@ -6,19 +6,30 @@ title_long: Security Practices and Research Student Association
 motto: SPARSA emphasizes a warm, friendly, and supportive atmosphere where students can learn and work together.
 email: eboard@sparsa.org
 description: >
-  Security Through Community
+  Security Practicies And Research Student Association
 twitter: RIT_SPARSA
 github: 
   name: RITSPARSA
   project: SPARSA-Site
-
 facebook_page: RIT.SPARSA
 facebook_group: sparsa
+youtube: RITSPARSA
 
 #-------------------------------
-# Navbar Set
+# Main Image Slider Settings
+slider:
+  - image: ISTS_0.jpg
+  - image: ISTS_1.jpg
+  - image: ISTS_2.jpg
+  - image: ISTS_3.jpg
+  - image: ISTS_4.jpg
+  - image: ISTS_5.jpg
+
+#-------------------------------
+# Navbar Settings
+favicon: favicon.png
 navbar-brand:
-  image: SPARSA_Header_Black.png
+  image: SPARSA_Header.png
   link: '/index.html'
 
 navbar:
@@ -29,14 +40,16 @@ navbar:
     subitems:
     - name: 'Alumni'
       link: 'alumni.html'
-    - name: 'EBoard'
-      link: 'eboard.html'
     - name: 'Past EBoards'
       link: 'past-eboards.html'
+  - name: 'EBoard'
+    link: 'eboard.html'
   - name: 'Events'
     link: 'events.html'
-  - name: 'Contact'
-    link: 'contact.html'
+  - name: 'ISTS'
+    link: 'https://ists.sparsa.org'
+  - name: 'Sponsors'
+    link: 'sponsors.html'
 
 #-------------------------------
 # EBoard Settings
@@ -46,7 +59,12 @@ eboard_roles:
     appointee: Micah Martin
     image: president.jpg
     description: >
-      The President...
+      Micah Martin is a third year Computing Security student at RIT. He competes 
+      on the school's CCDC team and loves helping with and competing in security 
+      competitions. Micah's technical focus is primary on Linux systems and email 
+      servers. He loves helping out the community and learning with others. If he 
+      isn't sleeping in the computer labs, he can be found sleeping out in the woods. 
+      You can contact him at mmartin@sparsa.org.
   - name: Vice President of Research
     appointee: Cameron Clark
     image: vpr.jpg
@@ -120,14 +138,14 @@ about_us_long: >
 events:
 - name: Weekly Meetings
   description: We have meetings every Friday from 2-4PM in GOL-1400
-  image: drink.jpg
+  image: meetings.png
 - name: Hack Night
   description: >
     Come and hangout and work on projects or participate in some fun activities!
     <p>Every Monday from 6-anytime in the Sec Lab (GOL-2400)</p>
-  image: infosys.jpg
+  image: hacknights.jpg
 - name: ISTS
   description: >
     This is a competition we do in the Spring.  Follow the link below for more information!
     <p><a href="https://ists.sparsa.org">https://ists.sparsa.org</a></p>
-  image: arcade.jpg
+  image: ists.jpg
