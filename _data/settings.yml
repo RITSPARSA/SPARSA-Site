@@ -69,7 +69,9 @@ eboard_roles:
     appointee: Cameron Clark
     image: vpr.jpg
     description: >
-      The Vice President of Research...
+      Cameron Clark is a 4th year Computing Security major. His focuses revolve 
+      around web security and he's just begun diving into blockchains. Before 
+      joining the security world he used to be a lobster cook.
   - name: Vice President of Practices
     appointee: Kyle Carretto
     image: vpp.jpg
@@ -89,7 +91,9 @@ eboard_roles:
     appointee: Russell Babarsky
     image: secretary.jpg
     description: >
-      The Secretary...
+      Russell Babarsky is a third-year computing security major. His passion lies 
+      in pen testing and exploit development. Besides security, he enjoys hiking, 
+      baseball, and listening to music.
   - name: Academic Advisor
     appointee: Bo Yuan
     image: advisor.jpg
