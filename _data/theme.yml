@@ -6,6 +6,7 @@ csh-bg: '#222'
 
 # Navbar
 navbar: '#222'
+navbar-links: '#999'
 navbar-hover: 'white'
 bottom-nav: '#222'
 

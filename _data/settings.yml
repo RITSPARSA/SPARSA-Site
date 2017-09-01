@@ -14,6 +14,7 @@ github:
 facebook_page: RIT.SPARSA
 facebook_group: sparsa
 youtube: RITSPARSA
+slack: SPARSA
 
 #-------------------------------
 # Main Image Slider Settings
@@ -69,7 +70,9 @@ eboard_roles:
     appointee: Cameron Clark
     image: vpr.jpg
     description: >
-      The Vice President of Research...
+      Cameron Clark is a 4th year Computing Security major. His focuses revolve 
+      around web security and he's just begun diving into blockchains. Before 
+      joining the security world he used to be a lobster cook.
   - name: Vice President of Practices
     appointee: Kyle Carretto
     image: vpp.jpg
@@ -89,7 +92,9 @@ eboard_roles:
     appointee: Russell Babarsky
     image: secretary.jpg
     description: >
-      The Secretary...
+      Russell Babarsky is a third-year computing security major. His passion lies 
+      in pen testing and exploit development. Besides security, he enjoys hiking, 
+      baseball, and listening to music.
   - name: Academic Advisor
     appointee: Bo Yuan
     image: advisor.jpg
@@ -137,12 +142,12 @@ about_us_long: >
 # Events
 events:
 - name: Weekly Meetings
-  description: We have meetings every Friday from 2-4PM in GOL-1400
+  description: We have meetings every Friday from 2:20-4:20PM in GOL-2400
   image: meetings.png
 - name: Hack Night
   description: >
     Come and hangout and work on projects or participate in some fun activities!
-    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2400)</p>
+    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2410)</p>
   image: hacknights.jpg
 - name: ISTS
   description: >
