@@ -142,12 +142,12 @@ about_us_long: >
 # Events
 events:
 - name: Weekly Meetings
-  description: We have meetings every Friday from 2-4PM in GOL-1400
+  description: We have meetings every Friday from 2:20-4:20PM in GOL-2400
   image: meetings.png
 - name: Hack Night
   description: >
     Come and hangout and work on projects or participate in some fun activities!
-    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2400)</p>
+    <p>Every Monday from 6-anytime in the Sec Lab (GOL-2410)</p>
   image: hacknights.jpg
 - name: ISTS
   description: >
