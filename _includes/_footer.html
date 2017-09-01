@@ -28,6 +28,11 @@
                 <h3 style="color:#FFF;">Public Resources</h3>
                 <div class="sitemap-ul-container">
                     <ul class="sitemap">
+                        {% if site.data.settings.slack %}
+                        <li>
+                            <a href="https://{{ site.data.settings.slack }}.slack.com" class="sitemap-link"><i class="fa fa-slack"></i> {{ site.data.settings.slack }} on Slack</a>
+                        </li>
+                        {% endif %}
                         {% if site.data.settings.youtube %}
                         <li>
                             <a href="https://www.youtube.com/user/{{ site.data.settings.youtube }}" class="sitemap-link"><i class="fa fa-youtube-play"></i> {{ site.data.settings.title }} on YouTube</a>
